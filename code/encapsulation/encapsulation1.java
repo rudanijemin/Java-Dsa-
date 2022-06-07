@@ -1,21 +1,33 @@
-/* 6/6/2022
- encapsulation = achieve data hiding 
-*/
-class encapsulation{
-    public static void main(String[] args) {
-        bankaccount ba = new bankaccount();
-        ba.amount = 4;
 
-        System.out.println(ba.amount);
+public class encapsulation1 {
 
-    
-    }
-
+	public static void main(String[] args) {
+		
+		Secreat se = new Secreat();
+		se.setdata(500);
+		
+		System.out.println(se.getdata());
+	}
+	
 }
 
-class bankaccount {
-
-    int otp;
-    int amount;
-
+class Secreat
+{
+	private int a;
+	
+	void setdata(int a)
+	{
+		if(a>100)
+		{
+			this.a=a;;
+		}
+		else {
+			System.out.println("plz enter value above 100");
+		}
+		
+	}
+	int getdata()
+	{
+		return  a;
+	}
 }
