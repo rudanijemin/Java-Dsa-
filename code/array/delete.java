@@ -1,9 +1,12 @@
 
 class delete {
-	public static int delete(int a[],inr key)
+	
+	
+	public static int delete(int a[],int key)
 	{
+		int i;
 		int n = a.length;
-		for(int i=0;i<n;i++)
+		for( i=0;i<n;i++)
 		{
 			if(key==a[i])
 			{
@@ -17,13 +20,18 @@ class delete {
 			a[j]=a[j+1];
 		}
 		return n-1;
+	}
+		
 		
 	public static void main(String[] args) {
 		int a[]= {3,65,8,9,35,78};
 		int key = 8;
-		delete(a,key);		
+		delete(a,key);
+		
 		for(int e:a) {
 			System.out.println(e+" ");
 		}
+
 	}
+
 }
