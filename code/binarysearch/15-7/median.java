@@ -42,7 +42,7 @@
             }
             public static void main(String[] args) {
                 int a1[]={1,4,6,8};
-                int a2[]={3,5,7,9,12,45,67};
+                int a2[]={3,5,7,9,12,45};
 
                 System.out.println(findMedian(a1, a2));
             }
