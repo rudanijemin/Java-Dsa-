@@ -31,8 +31,8 @@ public class rotated {
         return -1;
     }
     public static void main(String[] args) {
-        int a[] = {4, 5, 7, 8, 9, 1, 2, 3};
-		int key = 1;
+        int a[] = {1,0,1,1,1};
+		int key = 0;
         System.out.println(rottated(a, key));
     }
 }
