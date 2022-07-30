@@ -13,6 +13,7 @@ public class frequency {
             else{
                 map.put(e, 1);
             }
+           // System.out.println(e+" "+map);
         }
         System.out.println(map);
     }
