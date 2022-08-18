@@ -40,7 +40,7 @@ public class QueuqAa {
         q.enqueue(80);
         System.out.println(q.dequeue());
 
-        q.enqueue(80);
+        
 
         System.out.println(q.dequeue());
         System.out.println(q.dequeue());
